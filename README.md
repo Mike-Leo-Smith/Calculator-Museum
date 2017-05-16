@@ -1,3 +1,3 @@
 # Calculator
-Final homework of the webpage design course.
-Preview: https://mike-leo-smith.github.io/Calculator/
+Final homework of the webpage design course.<br/>
+Preview: https://mike-leo-smith.github.io/Calculator/.
