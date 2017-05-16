@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+header
+{
+	background: #e0a040;
+}
+
+.banner
+{
+	background:      url("../Assets/Images/Banners/Rings.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+.time-line-board
+{
+	width:               100%;
+	color:               #202020;
+	font-size:           20px;
+	text-shadow:         none;
+	display:             inline-block;
+	box-shadow:          0 3px 5px #404040;
+	margin-top:          10px;
+	background:          blanchedalmond;
+	padding:             50px 5%;
+	transition-duration: 1.5s;
+}
+
+.time-line-board:hover
+{
+	-webkit-box-shadow: 3px 6px 20px #404040;
+}
