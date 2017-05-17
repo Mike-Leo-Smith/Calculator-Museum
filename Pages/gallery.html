@@ -3,8 +3,112 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Gallery - Calculator Museum</title>
+	<link rel="bookmark" type="image/x-icon" href="../Assets/Images/Logo/logo.png"/>
+	<link rel="shortcut icon" href="../Assets/Images/Logo/logo.png">
+	<link href="../CSS/basic.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/gallery.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+<div class="container">
+	<header>
+		<div class="logo">
+			<a href="../index.html">
+				<img src="../Assets/Images/Logo/logo.png" alt=""/>
+				MUSEUM
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a class="nav-a" href="history.html">HISTORY</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="history.html#mechanic">Mechanic Age</a></li>
+							<li><a href="history.html#electronic">Electronic Age</a></li>
+							<li><a href="history.html#handheld">Handheld Age</a></li>
+							<li><a href="history.html#graphing">Graphing Age</a></li>
+							<li><a href="history.html#color">Color Age</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a class="nav-a" href="models.html">MODELS</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="models-casio.html">CASIO</a></li>
+							<li><a href="models-hp.html">HP</a></li>
+							<li><a href="models-sharp.html">SHARP</a></li>
+							<li><a href="models-ti.html">TI</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a class="nav-a" href="apps.html">APPS</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="apps-education.html">Education</a></li>
+							<li><a href="apps-entertainment.html">Entertainment</a></li>
+							<li><a href="apps-engineering.html">Engineering</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a class="nav-a" href="gallery.html">GALLERY</a></li>
+				<li><a class="nav-a" href="../index.html#about">ABOUT</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section class="banner">
+		<h2 class="welcome">Gallery</h2>
+		<p class="welcome-text">
+			今天，当我们自然而然地将几乎人手一个的计算器称之为“计算器”时，你可知道在这小小的机器里面凝聚了怎样的技术结晶？更经历了怎样突飞猛进的更新换代？<br/>
+			从当初几乎占据了整个写字台的“庞然大物”到实现小型化飞跃，再到仅半个世纪后的今天具备了各种初创期时难以想象的功能，这一发展的历程，我们可以名副其实地称之为“革命”。<br/>
+			<button class="button rect-button">
+				<a href="../index.html">REVIEW</a>
+			</button>
+		</p>
+	</section>
+	<section class="mondrian-board">
+		<div class="cell cell-4x4 yellow"></div>
+		<div class="cell cell-4x4">
+			<div class="nested">
+				<div class="cell cell-2x4 white"></div>
+				<div class="cell cell-6x4 blue"></div>
+				<div class="cell cell-6x4 white"></div>
+				<div class="cell cell-2x4 white">
+					<div class="nested">
+						<div class="cell cell-8x8 red"></div>
+						<div class="cell cell-8x8 black"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="cell cell-4x4">
+			<div class="nested">
+				<div class="cell cell-2x4 white"></div>
+				<div class="cell cell-6x4 white"></div>
+				<div class="cell cell-6x4 white"></div>
+				<div class="cell cell-2x4 red">
+					<div class="nested">
+						<div class="cell cell-8x4 black"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cell cell-4x4 white">
+			<div class="nested">
+				<div class="cell cell-4x8">
+					<div class="nested">
+						<div class="cell cell-4x4 red"></div>
+						<div class="cell cell-4x4 white"></div>
+						<div class="cell cell-8x4 white"></div>
+						<div class="cell cell-8x8 white"></div>
+					</div>
+				</div>
+				<div class="cell cell-4x8 yellow"></div>
+			</div>
+		</div>
+	</section>
+	<footer class="footer-bar">
+		Copyright © 2017 Water Inc. All rights reserved.
+	</footer>
+</div>
 </body>
 </html>

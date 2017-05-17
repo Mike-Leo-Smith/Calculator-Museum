@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+header
+{
+	background: mediumslateblue;
+}
+
+.banner
+{
+	background: url("../Assets/Images/Banners/Suprematism.jpg") no-repeat fixed;
+}
+
+/* Mondrian styled board */
+.mondrian-board
+{
+	background-color:    #000000;
+	padding:             5px;
+	box-shadow:          0 3px 5px #404040;
+	margin-top:          10px;
+	transition-duration: 1.5s;
+}
+
+.mondrian-board:hover
+{
+	box-shadow: 3px 6px 20px #404040;
+}
+
+.mondrian-board:after
+{
+	content: " ";
+	display: table;
+	width:   100%;
+	clear:   both;
+}
+
+.yellow
+{
+	background-color: #ffd90a;
+}
+
+.red
+{
+	background-color: #cb0a1d;
+}
+
+.blue
+{
+	background-color: #2060a7;
+}
+
+.black
+{
+	background-color: #000000;
+}
+
+.white
+{
+	background-color: #ffffff;
+}
+
+/* grid */
+*
+{
+	box-sizing: border-box;
+}
+
+.cell
+{
+	float:          left;
+	position:       relative;
+	outline:        5px solid #000000;
+	outline-offset: -5px;
+}
+
+.cell > .nested
+{
+	margin:   0;
+	position: absolute;
+	top:      0;
+	left:     0;
+	width:    100%;
+	height:   100%;
+}
+
+.cell[class*="cell-8"]
+{
+	width: 100%;
+}
+
+.cell[class*="cell-6"]
+{
+	width: 75%;
+}
+
+.cell[class*="cell-4"]
+{
+	width: 50%;
+}
+
+.cell[class*="cell-2"]
+{
+	width: 25%;
+}
+
+.cell[class*="cell-"][class*="x8"]
+{
+	padding-bottom: 100%;
+}
+
+.cell[class*="cell-"][class*="x6"]
+{
+	padding-bottom: 75%;
+}
+
+.cell[class*="cell-"][class*="x4"]
+{
+	padding-bottom: 50%;
+}
+
+.cell[class*="cell-"][class*="x2"]
+{
+	padding-bottom: 25%;
+}
