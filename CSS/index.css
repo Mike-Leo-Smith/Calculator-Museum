@@ -2,7 +2,7 @@
 
 header
 {
-	background-color:    #4067ef;
+	background-color: #4067ef;
 }
 
 /* Banner */
@@ -24,7 +24,7 @@ header
 	margin-right:        auto;
 	margin-left:         auto;
 	display:             inline-block;
-	background-color:    #00000040;
+	background-color:    rgba(0, 0, 0, 0.3);
 	transition-duration: 1.5s;
 }
 
@@ -45,39 +45,9 @@ header
 	margin-bottom: -4px;
 }
 
-/* Card */
-.card-left
-{
-	float: left;
-}
-
-.card-right
-{
-	float: right;
-}
-
-.card-left, .card-right
-{
-	width:               49.5%;
-	color:               gray;
-	transition-duration: 0.5s;
-}
-
 .card-header
 {
-	background: #6750ff;
-}
-
-.card-left img, .card-right img
-{
-	width:  100%;
-	height: 300px;
-}
-
-.card-left p, .card-right p
-{
-	color:       dimgray;
-	text-shadow: none;
+	background: #5770ff;
 }
 
 /* About */
@@ -91,7 +61,7 @@ header
 
 .about-header
 {
-	background-color: #7565df;
+	background-color: #5060ff;
 }
 
 .about p, .about ul
@@ -120,7 +90,7 @@ header
 	text-shadow: 0 0 1px #303030;
 }
 
-.about-header, .card-header
+.about-header
 {
 	color:          white;
 	font-size:      18px;
@@ -130,13 +100,13 @@ header
 }
 
 /* Hover effects */
-.card-left:hover, .card-right:hover, .about:hover
+.about:hover
 {
 	box-shadow: 3px 6px 20px black;
 }
 
 /* Border shadows */
-.card-left, .card-right, .about
+.about
 {
 	box-shadow: 0 3px 5px #404040;
 }

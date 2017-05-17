@@ -1,7 +1,9 @@
+@charset "UTF-8";
+
+/* Time line design adapted from resources on line. */
 html
 {
-	box-sizing:  border-box;
-	font-family: georgia, sans-serif;
+	box-sizing: border-box;
 }
 
 *, *:before, *:after
@@ -9,21 +11,23 @@ html
 	box-sizing: inherit;
 }
 
-img
+.time-line img
 {
-	max-width: 100%;
+	width: 100%;
 }
 
 .time-line
 {
-	text-align: center;
+	text-align:  center;
+	font-family: georgia, sans-serif;
+	font-size:   24px;
 }
 
 .time-line .year
 {
 	display:     inline-block;
 	font-size:   36px;
-	font-weight: bold;
+	font-weight: normal;
 	position:    relative;
 }
 
@@ -100,16 +104,21 @@ img
 	transform:   translateY(-50%);
 	padding:     30px;
 	text-align:  left;
-	color:       green;
-	font-size:   24px;
+	color:       darkgreen;
 	white-space: nowrap;
 }
 
 .time-line .days .day .events .day-img
 {
-	margin-right: -30px;
-	position:     relative;
-	overflow:     hidden;
+	margin-right:        -30px;
+	position:            relative;
+	overflow:            hidden;
+	transition-duration: 1.5s;
+}
+
+.time-line .days .day .events .day-img:hover
+{
+	box-shadow: -3px 3px 10px #404040;
 }
 
 .time-line .days .day .events .day-img img
@@ -120,12 +129,23 @@ img
 
 .time-line .days .day .events .day-img .caption
 {
-	position:   absolute;
-	margin:     0;
-	bottom:     0;
-	right:      0;
-	padding:    20px;
-	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+	margin:   0;
+	bottom:   0;
+	right:    0;
+	padding:  20px;
+}
+
+.time-line .days .day .events .day-img .caption
+{
+	background:          transparent;
+	color:               transparent;
+	transition-duration: 1s;
+}
+
+.time-line .days .day .events .day-img:hover .caption
+{
+	background: rgba(0, 0, 0, 0.4);
 	color:      #ffffff;
 }
 
@@ -155,6 +175,11 @@ img
 {
 	margin-right: auto;
 	margin-left:  -30px;
+}
+
+.time-line .days .day:nth-child(odd) .events .day-img:hover
+{
+	box-shadow: 3px 3px 10px #404040;
 }
 
 .time-line .days .day:nth-child(odd) .events .day-img img

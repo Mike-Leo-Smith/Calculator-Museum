@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header
+{
+	background: #557b2f;
+}
+
+.banner
+{
+	background: url("../Assets/Images/Banners/Nighthawks.jpg") no-repeat fixed;
+}
+
+/* Board */
+.board
+{
+	width:         100%;
+	margin-top:    10px;
+	display:       inline-block;
+	margin-bottom: -4px;
+}
+
+.card-header
+{
+	background: seagreen;
+}

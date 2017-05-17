@@ -21,11 +21,11 @@ header
 	box-shadow:          0 3px 5px #404040;
 	margin-top:          10px;
 	background:          blanchedalmond;
-	padding:             50px 5%;
+	padding:             50px;
 	transition-duration: 1.5s;
 }
 
 .time-line-board:hover
 {
-	-webkit-box-shadow: 3px 6px 20px #404040;
+	box-shadow: 3px 6px 20px #404040;
 }

@@ -49,9 +49,17 @@ header
 	font-size:           20px;
 	font-weight:         normal;
 	margin-top:          15px;
-	margin-left:         25px;
 	float:               left;
 	transition-duration: 1.5s;
+}
+
+.logo img
+{
+	margin-left:  15px;
+	max-height:   42px;
+	margin-top:   -10px;
+	margin-right: 10px;
+	float:        left;
 }
 
 .logo:hover
@@ -74,23 +82,74 @@ header nav ul
 
 nav ul li
 {
-	float:       left;
-	color:       white;
-	font-size:   18px;
-	text-align:  center;
-	font-weight: normal;
+	float:               left;
+	color:               white;
+	font-size:           18px;
+	text-align:          center;
+	font-weight:         normal;
+	transition-duration: 1s;
 }
 
-nav ul li a
+.nav-a
 {
 	color:               white;
 	padding:             10px 10px 8px;
 	transition-duration: 1s;
 }
 
-nav ul li:hover a
+nav ul li:hover .nav-a
 {
 	box-shadow: 0 0 10px #303030;
+}
+
+.drop-down
+{
+	display:             none;
+	position:            absolute;
+	float:               left;
+	margin-top:          7px;
+	opacity:             90;
+	z-index:             1;
+	background:          white;
+	transition-duration: 1s;
+}
+
+.drop-down ul
+{
+	padding-left:    0;
+	list-style-type: none;
+}
+
+.drop-down ul li
+{
+	color:               #202020;
+	background:          #f0f0f0;
+	text-align:          left;
+	text-shadow:         none;
+	width:               150px;
+	float:               none;
+	padding-top:         10px;
+	padding-bottom:      9px;
+	padding-left:        20px;
+	display:             block;
+	transition-duration: 0.7s;
+}
+
+.drop-down ul li:hover
+{
+	background:  #656565;
+	text-shadow: #303030;
+	color:       white;
+}
+
+nav ul li:hover .drop-down
+{
+	display: block;
+}
+
+.drop-down:hover
+{
+	display: block;
 }
 
 /* Banners */
@@ -104,7 +163,7 @@ nav ul li:hover a
 
 .banner p
 {
-	background-color: #00000050;
+	background-color: rgba(0, 0, 0, 0.4);
 }
 
 @keyframes welcome-emit
@@ -142,6 +201,37 @@ nav ul li:hover a
 	animation:   welcome-text-emit 1.5s forwards;
 }
 
+/* Card */
+.card-left
+{
+	float: left;
+}
+
+.card-right
+{
+	float: right;
+}
+
+.card-left, .card-right
+{
+	width:               49.5%;
+	color:               gray;
+	transition-duration: 0.5s;
+}
+
+.card-left img, .card-right img
+{
+	width:    100%;
+	height:   300px;
+	overflow: hidden;
+}
+
+.card-left p, .card-right p
+{
+	color:       dimgray;
+	text-shadow: none;
+}
+
 /* Footer */
 .footer-bar
 {
@@ -158,13 +248,22 @@ nav ul li:hover a
 }
 
 /* Hover effects */
-.banner:hover, header:hover
+.banner:hover, header:hover, .card-left:hover, .card-right:hover, .drop-down:hover
 {
 	box-shadow: 3px 6px 20px black;
 }
 
 /* Border shadows */
-header, .banner
+header, .banner, .card-left, .card-right, .drop-down
 {
 	box-shadow: 0 3px 5px #404040;
+}
+
+.card-header
+{
+	color:          white;
+	font-size:      18px;
+	width:          100%;
+	padding-top:    10px;
+	padding-bottom: 9px;
 }
