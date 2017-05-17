@@ -11,12 +11,11 @@ header
 }
 
 /* Board */
-.board
+.exhibit-board
 {
-	width:         100%;
-	margin-top:    10px;
-	display:       inline-block;
-	margin-bottom: -4px;
+	width:      100%;
+	margin-top: 10px;
+	display:    inline-block;
 }
 
 .card-header
@@ -72,4 +71,9 @@ header
 .exhibit:hover
 {
 	box-shadow: 3px 6px 20px black;
+}
+
+.footer-bar
+{
+	margin-top: 8px;
 }
