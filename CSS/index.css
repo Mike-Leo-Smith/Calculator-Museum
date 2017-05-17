@@ -12,30 +12,6 @@ header
 	background-size: cover;
 }
 
-/* Button */
-.rect-button
-{
-	border:              3px solid white;
-	border-radius:       12px;
-	color:               white;
-	font-size:           20px;
-	padding:             3px 15px 5px;
-	margin-top:          20px;
-	margin-right:        auto;
-	margin-left:         auto;
-	display:             inline-block;
-	background-color:    rgba(0, 0, 0, 0.3);
-	transition-duration: 1.5s;
-}
-
-.rect-button:hover
-{
-	background-color: white;
-	text-shadow:      none;
-	color:            #606060;
-	box-shadow:       0 0 10px black;
-}
-
 /* Board */
 .board
 {

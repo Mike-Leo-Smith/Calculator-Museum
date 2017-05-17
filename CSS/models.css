@@ -23,3 +23,53 @@ header
 {
 	background: seagreen;
 }
+
+.exhibit
+{
+	width:               100%;
+	height:              auto;
+	background:          darkseagreen;
+	box-shadow:          0 3px 5px #404040;
+	margin-top:          10px;
+	transition-duration: 1.5s;
+	padding-top:         50px;
+	padding-bottom:      20px;
+	display:             inline-block;
+}
+
+.exhibit-card
+{
+	width:       27%;
+	display:     inline-block;
+	float:       left;
+	margin-left: 3%;
+}
+
+.exhibit .exhibit-card img
+{
+	width: 100%;
+}
+
+.exhibit-card p
+{
+	font-family:         Georgia, sans-serif;
+	font-size:           30px;
+	padding:             5px;
+	text-decoration:     none;
+	text-shadow:         none;
+	color:               white;
+	background:          rgba(0, 0, 0, 0.4);
+	margin-top:          -40px;
+	opacity:             0;
+	transition-duration: 1s;
+}
+
+.exhibit-card:hover p
+{
+	opacity: 100;
+}
+
+.exhibit:hover
+{
+	box-shadow: 3px 6px 20px black;
+}

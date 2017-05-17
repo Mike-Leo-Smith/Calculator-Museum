@@ -18,11 +18,37 @@
 		</div>
 		<nav>
 			<ul>
-				<li><a href="../Pages/history.html">HISTORY</a></li>
-				<li><a href="../Pages/models.html">MODELS</a></li>
-				<li><a href="../Pages/apps.html">APPS</a></li>
-				<li><a href="../Pages/gallery.html">GALLERY</a></li>
-				<li><a href="../index.html#about">ABOUT</a></li>
+				<li><a class="nav-a" href="history.html">HISTORY</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="history.html#mechanic">Mechanic Age</a></li>
+							<li><a href="history.html#electronic">Electronic Age</a></li>
+							<li><a href="history.html#handheld">Handheld Age</a></li>
+							<li><a href="history.html#graphing">Graphing Age</a></li>
+							<li><a href="history.html#color">Color Age</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a class="nav-a" href="models.html">MODELS</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="models-casio.html">CASIO</a></li>
+							<li><a href="models-hp.html">HP</a></li>
+							<li><a href="models-sharp.html">SHARP</a></li>
+							<li><a href="models-ti.html">TI</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a class="nav-a" href="apps.html">APPS</a>
+					<div class="drop-down">
+						<ul>
+							<li><a href="apps-education.html">Education</a></li>
+							<li><a href="apps-entertainment.html">Entertainment</a></li>
+							<li><a href="apps-engineering.html">Engineering</a></li>
+						</ul>
+					</div></li>
+				<li><a class="nav-a" href="gallery.html">GALLERY</a></li>
+				<li><a class="nav-a" href="../index.html#about">ABOUT</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -30,20 +56,23 @@
 		<h2 class="welcome">Popular Models</h2>
 		<p class="welcome-text">
 			从早期的机械计算器，到晶体管计算器、电子管计算器，直至如今的图形计算器，计算器从诞生起便在不断地进化。如今的计算器，小小的身材却蕴含着巨大的能力。<br/>
-			这里我们将着重介绍各大品牌的代表新品，它们形态各异，功能上也是各有千秋。
+			这里我们将着重介绍各大品牌的代表新品，它们形态各异，功能上也是各有千秋。<br/>
+			<button class="button rect-button">
+				<a href="models-casio.html">EXPLORE</a>
+			</button>
 		</p>
 	</section>
 	<section class="board">
 		<div class="card-left">
 			<div class="card-header">CASIO</div>
-			<a href="../Pages/history.html">
-				<img src="../Assets/Images/Calculators/fx-9860G.JPG"/>
+			<a href="models-casio.html">
+				<img src="../Assets/Images/Calculators/fx-9860G.jpg"/>
 			</a>
 			<p>无冕之王</p>
 		</div>
 		<div class="card-right">
 			<div class="card-header">Hewlett Packard</div>
-			<a href="../Pages/models.html">
+			<a href="models-hp.html">
 				<img src="../Assets/Images/Calculators/HP-50G.jpg"/>
 			</a>
 			<p>大巧若拙</p>
@@ -52,14 +81,14 @@
 	<section class="board">
 		<div class="card-left">
 			<div class="card-header">SHARP</div>
-			<a href="../Pages/models.html">
+			<a href="models-sharp.html">
 				<img src="../Assets/Images/Calculators/SHARP-G850.jpg"/>
 			</a>
 			<p>昔日王者</p>
 		</div>
 		<div class="card-right">
 			<div class="card-header">Texas Instruments</div>
-			<a href="../Pages/history.html">
+			<a href="models-ti.html">
 				<img src="../Assets/Images/Calculators/TI-92P.jpg"/>
 			</a>
 			<p>实力所在</p>
