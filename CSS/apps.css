@@ -10,3 +10,50 @@ header
 	background:      url("../Assets/Images/Banners/Graffiti-Red.jpg") no-repeat fixed;
 	background-size: cover;
 }
+
+.app-board-side, .app-board-center
+{
+	margin-top:          10px;
+	width:               32.8%;
+	box-shadow:          0 3px 5px #404040;
+	transition-duration: 1s;
+	display:             inline-block;
+	float:               left;
+}
+
+.app-board-center
+{
+	margin-left:  0.8%;
+	margin-right: 0.8%;
+}
+
+.app-board-side p, .app-board-center p
+{
+	color:       #606060;
+	text-shadow: none;
+	font-size:   17px;
+	line-height: 1.0;
+	text-align:  center;
+}
+
+.app-board-side img, .app-board-center img
+{
+	width:         100%;
+	float:         left;
+	margin-bottom: 15px;
+}
+
+.app-board-side:hover, .app-board-center:hover
+{
+	box-shadow: 3px 6px 20px #404040;
+}
+
+.app-board-header
+{
+	background-color: lightcoral;
+	color:            white;
+	font-size:        18px;
+	width:            100%;
+	padding-top:      10px;
+	padding-bottom:   9px;
+}
