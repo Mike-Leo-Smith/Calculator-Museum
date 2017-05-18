@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+header
+{
+	background: #d08080;
+}
+
+.banner
+{
+	background:      url("../Assets/Images/Banners/Graffiti-Red.jpg") no-repeat fixed;
+	background-size: cover;
+}

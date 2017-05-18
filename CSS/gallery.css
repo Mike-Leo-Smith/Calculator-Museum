@@ -7,7 +7,8 @@ header
 
 .banner
 {
-	background: url("../Assets/Images/Banners/Suprematism.jpg") no-repeat fixed;
+	background:      url("../Assets/Images/Banners/Suprematism.jpg") no-repeat fixed;
+	background-size: cover;
 }
 
 /* Mondrian styled board */
@@ -120,4 +121,10 @@ header
 .cell[class*="cell-"][class*="x2"]
 {
 	padding-bottom: 25%;
+}
+
+.nested img
+{
+	width:   100%;
+	opacity: 20;
 }
