@@ -38,9 +38,8 @@ header
 
 .app-board-side img, .app-board-center img
 {
-	width:         100%;
-	float:         left;
-	margin-bottom: 15px;
+	width: 100%;
+	float: left;
 }
 
 .app-board-side:hover, .app-board-center:hover
