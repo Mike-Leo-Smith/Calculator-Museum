@@ -45,7 +45,7 @@ header
 	padding-bottom:   9px;
 }
 
-.about p, .about ul
+.about p, .about table
 {
 	color:       dimgray;
 	text-shadow: none;
@@ -53,20 +53,21 @@ header
 	line-height: 150%;
 }
 
-.about ul li
+.about table
 {
-	margin-right:   30px;
-	margin-left:    10px;
+	width:          100%;
+	padding-left:   4%;
+	padding-right:  4%;
 	padding-bottom: 30px;
 	float:          left;
 }
 
-.about ul li a
+.about td a
 {
 	transition-duration: 1s;
 }
 
-.about ul li:hover a
+.about td:hover a
 {
 	text-shadow: 0 0 1px #303030;
 }
